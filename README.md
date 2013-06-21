@@ -10,6 +10,7 @@ Repository Contents
 
 Version History
 ---------------
+* vH10 First production run.
 * vH01 First protoboard run.
 
 License Information

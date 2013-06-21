@@ -119,11 +119,15 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="20.3" y2="0" width="0.254" layer="20"/>
-<wire x1="20.3" y1="0" x2="20.32" y2="20.32" width="0.254" layer="20"/>
-<wire x1="20.32" y1="20.32" x2="0" y2="20.32" width="0.254" layer="20"/>
-<wire x1="0" y1="20.32" x2="0" y2="0" width="0.254" layer="20"/>
-<text x="8.001" y="17.526" size="0.8128" layer="21" font="vector" ratio="15">TMP006</text>
+<wire x1="0" y1="18.52395" x2="0" y2="1.79605" width="0.254" layer="20"/>
+<wire x1="0" y1="1.79605" x2="1.79605" y2="0" width="0.254" layer="20"/>
+<wire x1="1.79605" y1="0" x2="18.519790625" y2="0" width="0.254" layer="20"/>
+<wire x1="18.519790625" y1="0" x2="20.301753125" y2="1.781175" width="0.254" layer="20"/>
+<wire x1="20.301753125" y1="1.781175" x2="20.31823125" y2="18.52295" width="0.254" layer="20"/>
+<wire x1="20.31823125" y1="18.52295" x2="18.52218125" y2="20.32" width="0.254" layer="20"/>
+<wire x1="18.52218125" y1="20.32" x2="1.79605" y2="20.32" width="0.254" layer="20"/>
+<wire x1="1.79605" y1="20.32" x2="0" y2="18.52395" width="0.254" layer="20"/>
+<text x="6.731" y="17.526" size="1.27" layer="21" font="vector" ratio="15">TMP006</text>
 <text x="19.05" y="-13.97" size="1.27" layer="27" font="vector" ratio="15">Jordan McConnell</text>
 <text x="7.493" y="16.51" size="0.8128" layer="21" font="vector" ratio="15">Breakout</text>
 <text x="2.921" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">VCC</text>
@@ -133,11 +137,11 @@
 <text x="13.081" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">ADR1</text>
 <text x="15.621" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">ADR0</text>
 <text x="18.161" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">GND</text>
-<text x="12.319" y="17.526" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">TMP006</text>
+<text x="12.827" y="17.526" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">TMP006</text>
 <text x="13.97" y="16.51" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">Temperature</text>
 <text x="12.319" y="15.367" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">Sensor</text>
 <text x="12.827" y="14.351" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">Breakout</text>
-<text x="0.889" y="3.937" size="0.8128" layer="16" font="vector" ratio="15" rot="MR180">v01</text>
+<text x="0.889" y="3.937" size="0.8128" layer="16" font="vector" ratio="15" rot="MR180">v10</text>
 <rectangle x1="10.287" y1="10.795" x2="10.541" y2="11.049" layer="41"/>
 <rectangle x1="10.795" y1="10.795" x2="11.049" y2="11.049" layer="41"/>
 </plain>
@@ -1172,15 +1176,19 @@ design rules under a new name.</description>
 <wire x1="10.16" y1="7.112" x2="11.176" y2="6.35" width="0.254" layer="16"/>
 <via x="11.176" y="6.35" extent="1-16" drill="0.381"/>
 <wire x1="11.176" y1="6.35" x2="9.74" y2="6.35" width="0.254" layer="1"/>
-<wire x1="17.78" y1="1.27" x2="17.78" y2="5.969" width="0.1524" layer="1"/>
+<wire x1="17.78" y1="1.27" x2="17.78" y2="5.969" width="0.2032" layer="1"/>
 <wire x1="18.415" y1="7.605" x2="18.63" y2="7.62" width="0.1524" layer="1"/>
 <wire x1="18.63" y1="7.62" x2="18.63" y2="8.89" width="0.1524" layer="1"/>
 <polygon width="0.254" layer="1" isolate="0.3048">
 <vertex x="0" y="7.62"/>
-<vertex x="0" y="0"/>
-<vertex x="20.32" y="0"/>
-<vertex x="20.32" y="20.32"/>
-<vertex x="0" y="20.32"/>
+<vertex x="0" y="1.79605"/>
+<vertex x="1.79605" y="0"/>
+<vertex x="18.52395" y="0"/>
+<vertex x="20.32" y="1.79605"/>
+<vertex x="20.32" y="18.52395"/>
+<vertex x="18.52395" y="20.32"/>
+<vertex x="1.79605" y="20.32"/>
+<vertex x="0" y="18.52395"/>
 <vertex x="0" y="7.874"/>
 <vertex x="6.35" y="7.874"/>
 <vertex x="6.35" y="15.24"/>
@@ -1189,10 +1197,14 @@ design rules under a new name.</description>
 </polygon>
 <polygon width="0.254" layer="16" isolate="0.3048">
 <vertex x="0" y="7.62"/>
-<vertex x="0" y="0"/>
-<vertex x="20.32" y="0"/>
-<vertex x="20.32" y="20.32"/>
-<vertex x="0" y="20.32"/>
+<vertex x="0" y="1.79605"/>
+<vertex x="1.79605" y="0"/>
+<vertex x="18.52395" y="0"/>
+<vertex x="20.32" y="1.79605"/>
+<vertex x="20.32" y="18.52395"/>
+<vertex x="18.52395" y="20.32"/>
+<vertex x="1.79605" y="20.32"/>
+<vertex x="0" y="18.52395"/>
 <vertex x="0" y="7.874"/>
 <vertex x="6.35" y="7.874"/>
 <vertex x="6.35" y="15.24"/>
@@ -1317,25 +1329,6 @@ design rules under a new name.</description>
 <wire x1="12.7" y1="5.08" x2="15.24" y2="7.62" width="0.2032" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,16,59abe41efa0d47b8"/>
-<approved hash="3,1,5b2c7714776e5b56"/>
-<approved hash="5,1,a1313073b315b0b4"/>
-<approved hash="5,1,68f557d1ff952202"/>
-<approved hash="5,1,28afce7c37124322"/>
-<approved hash="5,1,1cf025081655ddb3"/>
-<approved hash="5,1,9397a3d0171ac52c"/>
-<approved hash="5,1,549db569b5dce3d9"/>
-<approved hash="5,1,bf1e6f77243243aa"/>
-<approved hash="19,1,092190dd622b4c28"/>
-<approved hash="5,1,79ba4e8134def1fb"/>
-<approved hash="6,1,1ed64a62207077c4"/>
-<approved hash="5,1,02ef32aa1162c356"/>
-<approved hash="6,1,e32405726e728924"/>
-<approved hash="5,1,cd46eb67f7fa433e"/>
-<approved hash="5,1,44d8156873fdb0a8"/>
-<approved hash="6,1,4fac2f7a45162948"/>
-</errors>
 </board>
 </drawing>
 </eagle>
