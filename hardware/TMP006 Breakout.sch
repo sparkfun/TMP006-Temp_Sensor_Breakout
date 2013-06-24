@@ -6467,6 +6467,47 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <plain>
 <text x="154.94" y="7.62" size="1.778" layer="94">Jordan McConnell</text>
 <text x="238.76" y="7.62" size="1.778" layer="94">v01</text>
+<text x="203.2" y="66.04" size="1.778" layer="97">ADR1</text>
+<text x="213.36" y="66.04" size="1.778" layer="97">ADR0</text>
+<text x="223.52" y="66.04" size="1.778" layer="97">I2C Address</text>
+<text x="205.74" y="60.96" size="1.778" layer="97">0</text>
+<text x="205.74" y="58.42" size="1.778" layer="97">0</text>
+<text x="205.74" y="55.88" size="1.778" layer="97">0</text>
+<text x="205.74" y="53.34" size="1.778" layer="97">0</text>
+<text x="215.9" y="60.96" size="1.778" layer="97">0</text>
+<text x="215.9" y="50.8" size="1.778" layer="97">0</text>
+<text x="215.9" y="58.42" size="1.778" layer="97">1</text>
+<text x="215.9" y="48.26" size="1.778" layer="97">1</text>
+<text x="205.74" y="50.8" size="1.778" layer="97">1</text>
+<text x="205.74" y="48.26" size="1.778" layer="97">1</text>
+<text x="205.74" y="45.72" size="1.778" layer="97">1</text>
+<text x="205.74" y="43.18" size="1.778" layer="97">1</text>
+<text x="214.122" y="55.88" size="1.778" layer="97">SDA</text>
+<text x="214.122" y="45.72" size="1.778" layer="97">SDA</text>
+<text x="214.122" y="53.34" size="1.778" layer="97">SCL</text>
+<text x="214.122" y="43.18" size="1.778" layer="97">SCL</text>
+<text x="226.06" y="60.96" size="1.778" layer="97">0x40</text>
+<text x="226.06" y="58.42" size="1.778" layer="97">0x41</text>
+<text x="226.06" y="55.88" size="1.778" layer="97">0x42</text>
+<text x="226.06" y="53.34" size="1.778" layer="97">0x43</text>
+<text x="226.06" y="50.8" size="1.778" layer="97">0x44</text>
+<text x="226.06" y="48.26" size="1.778" layer="97">0x45</text>
+<text x="226.06" y="45.72" size="1.778" layer="97">0x46</text>
+<text x="226.06" y="43.18" size="1.778" layer="97">0x47</text>
+<text x="233.68" y="60.96" size="1.778" layer="97">(Default)</text>
+<wire x1="201.422" y1="71.12" x2="201.422" y2="64.77" width="0.2032" layer="94"/>
+<wire x1="201.422" y1="64.77" x2="201.422" y2="40.64" width="0.2032" layer="94"/>
+<wire x1="201.422" y1="40.64" x2="211.582" y2="40.64" width="0.2032" layer="94"/>
+<wire x1="211.582" y1="40.64" x2="220.98" y2="40.64" width="0.2032" layer="94"/>
+<wire x1="220.98" y1="40.64" x2="243.84" y2="40.64" width="0.2032" layer="94"/>
+<wire x1="243.84" y1="40.64" x2="243.84" y2="64.77" width="0.2032" layer="94"/>
+<wire x1="243.84" y1="64.77" x2="243.84" y2="71.12" width="0.2032" layer="94"/>
+<wire x1="243.84" y1="71.12" x2="220.98" y2="71.12" width="0.2032" layer="94"/>
+<wire x1="220.98" y1="71.12" x2="211.582" y2="71.12" width="0.2032" layer="94"/>
+<wire x1="211.582" y1="71.12" x2="201.422" y2="71.12" width="0.2032" layer="94"/>
+<wire x1="201.422" y1="64.77" x2="243.84" y2="64.77" width="0.2032" layer="94"/>
+<wire x1="211.582" y1="71.12" x2="211.582" y2="40.64" width="0.2032" layer="94"/>
+<wire x1="220.98" y1="71.12" x2="220.98" y2="40.64" width="0.2032" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
