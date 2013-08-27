@@ -1,12 +1,13 @@
-RN-52 Audio Bluetooth Breakout
+TMP006-Temp Sensor Breakout
 ===========================
-[![RN-52 Breakout](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/7/7/7/11777-01_medium.jpg)  
-*RN-52 Breakout (WRL-11777)*](https://www.sparkfun.com/products/11777)
+[![TMP006 Breakout](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/8/5/9/11859-01_medium.jpg)  
+*TMP006 Breakout (SEN-11859)*](https://www.sparkfun.com/products/11859)
 
-This RN-52 Bluetooth from Roving Network is an audio module that provides a highly integrated solution for delivering high quality stereo audio in a small form factor with little difficulty.
+This breakout board for the TMP0006 sensor allows you to measure the temperature of an object without making contact. 
 
 Repository Contents
 -------------------
+* **/Firmware** - Example Arduino firmware to work with this 
 * **/Hardware** - Eagle PCB layout files
 * **/Production** - Test bed files and production panel files
 
