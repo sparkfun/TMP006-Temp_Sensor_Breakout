@@ -1,3 +1,23 @@
+//Modified by SparkFun Electronics. 
+//We release this code under ([Beerware license](http://en.wikipedia.org/wiki/Beerware)).
+
+//Original Code license:
+> /***************************************************
+>  This is a library for the TMP006 Temp Sensor
+>
+>  Designed specifically to work with the Adafruit TMP006 Breakout
+>  ----> https://www.adafruit.com/products/1296
+>
+>  These displays use I2C to communicate, 2 pins are required to
+>  interface
+>  Adafruit invests time and resources providing this open source code,
+>  please support Adafruit and open-source hardware by purchasing
+>  products from Adafruit!
+>
+>  Written by Limor Fried/Ladyada for Adafruit Industries.
+>  BSD license, all text above must be included in any redistribution
+> ****************************************************/
+
 // Constants for calculating object temperature
 #define TMP006_B0 -0.0000294
 #define TMP006_B1 -0.00000057
