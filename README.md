@@ -10,6 +10,7 @@ Repository Contents
 
 Version History
 ---------------
+* vH11 Second production run.
 * vH10 First production run.
 * vH01 First protoboard run.
 
