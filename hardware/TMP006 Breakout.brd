@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -137,7 +137,7 @@
 <text x="13.97" y="16.51" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">Temperature</text>
 <text x="12.319" y="15.367" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">Sensor</text>
 <text x="12.827" y="14.351" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">Breakout</text>
-<text x="17.526" y="14.986" size="0.8128" layer="16" font="vector" ratio="15" rot="MR180">v10</text>
+<text x="17.526" y="14.986" size="0.8128" layer="16" font="vector" ratio="15" rot="MR180">v11</text>
 <rectangle x1="10.287" y1="10.795" x2="10.541" y2="11.049" layer="41"/>
 <rectangle x1="10.795" y1="10.795" x2="11.049" y2="11.049" layer="41"/>
 <text x="17.399" y="2.794" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">GND</text>
@@ -941,7 +941,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -1280,7 +1280,8 @@ design rules under a new name.</description>
 <wire x1="5.461" y1="9.398" x2="5.461" y2="4.953" width="0.2032" layer="16"/>
 <wire x1="3.302" y1="11.43" x2="3.175" y2="11.557" width="0.2032" layer="16"/>
 <wire x1="3.175" y1="11.557" x2="3.175" y2="12.446" width="0.2032" layer="16"/>
-<wire x1="3.302" y1="11.43" x2="3.39" y2="11.176" width="0" layer="19" extent="1-16"/>
+<wire x1="3.39" y1="11.176" x2="3.39" y2="12.231" width="0.2032" layer="1"/>
+<wire x1="3.39" y1="12.231" x2="3.175" y2="12.446" width="0.2032" layer="1"/>
 </signal>
 <signal name="ADR0">
 <contactref element="U1" pad="C1"/>
