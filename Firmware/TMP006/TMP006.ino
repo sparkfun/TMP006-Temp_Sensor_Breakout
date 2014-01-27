@@ -3,21 +3,21 @@
 //We release this code under ([Beerware license](http://en.wikipedia.org/wiki/Beerware)).
 
 //Original Code license:
-> /***************************************************
->  This is a library for the TMP006 Temp Sensor
->
->  Designed specifically to work with the Adafruit TMP006 Breakout
->  ----> https://www.adafruit.com/products/1296
->
->  These displays use I2C to communicate, 2 pins are required to
->  interface
->  Adafruit invests time and resources providing this open source code,
->  please support Adafruit and open-source hardware by purchasing
->  products from Adafruit!
->
->  Written by Limor Fried/Ladyada for Adafruit Industries.
->  BSD license, all text above must be included in any redistribution
-> ****************************************************/
+ /***************************************************
+  This is a library for the TMP006 Temp Sensor
+
+  Designed specifically to work with the Adafruit TMP006 Breakout
+  ----> https://www.adafruit.com/products/1296
+
+  These displays use I2C to communicate, 2 pins are required to
+  interface
+  Adafruit invests time and resources providing this open source code,
+  please support Adafruit and open-source hardware by purchasing
+  products from Adafruit!
+
+  Written by Limor Fried/Ladyada for Adafruit Industries.
+  BSD license, all text above must be included in any redistribution
+ ****************************************************/
 
 // Only things needed to configure are the sensor address and
 // samples per reading, however the defaults work fine if using
