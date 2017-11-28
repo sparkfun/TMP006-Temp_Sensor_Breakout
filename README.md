@@ -11,6 +11,10 @@ Repository Contents
 * **/Hardware** - Eagle PCB layout files
 * **/Production** - Test bed files and production panel files
 
+Documentation
+-------------------
+*[Hookup Guide](https://learn.sparkfun.com/tutorials/tmp006-hookup-guide) - Basic hookup guide for the TMP006.
+
 Version History
 ---------------
 * vH11 Second production run.
