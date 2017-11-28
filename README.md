@@ -13,7 +13,7 @@ Repository Contents
 
 Documentation
 -------------------
-*[Hookup Guide](https://learn.sparkfun.com/tutorials/tmp006-hookup-guide) - Basic hookup guide for the TMP006.
+* [Hookup Guide](https://learn.sparkfun.com/tutorials/tmp006-hookup-guide) - Basic hookup guide for the TMP006.
 
 Version History
 ---------------
