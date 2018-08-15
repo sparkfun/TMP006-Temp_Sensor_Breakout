@@ -6,12 +6,12 @@ uint16_t read16(uint8_t addr, uint8_t reg) {
   Wire.write(reg); // send register address to read from
   Wire.endTransmission();
   
-  Wire.beginTransmission(addr);
+  //Wire.beginTransmission(addr); //commenting out since this is redundant and used when writing data to the I2C slave. see comments here=> https://github.com/sparkfun/TMP006-Temp_Sensor_Breakout/issues/9
   Wire.requestFrom((uint8_t)addr, (uint8_t)2); // request 2 bytes of data
   data = Wire.read(); // receive data
   data <<= 8;
   data |= Wire.read();
-  Wire.endTransmission();
+  //Wire.endTransmission(); //commenting out since this is redundant and used when writing data to the I2C slave.
 
   return data;
 }
