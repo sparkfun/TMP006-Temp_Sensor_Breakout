@@ -8,7 +8,7 @@ TMP006-Temp Sensor Breakout
 [![TMP006 Breakout](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/8/5/9/11859-01_medium.jpg)  
 *TMP006 Breakout (SEN-11859)*](https://www.sparkfun.com/products/11859)
 
-This breakout board for the TMP0006 sensor allows you to measure the temperature of an object without making contact. 
+This breakout board for the TMP006 sensor allows you to measure the temperature of an object without making contact. 
 
 Repository Contents
 -------------------
