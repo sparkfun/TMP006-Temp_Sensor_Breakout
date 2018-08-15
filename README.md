@@ -17,9 +17,9 @@ Documentation
 
 Version History
 ---------------
-* vH11 Second production run.
-* vH10 First production run.
-* vH01 First protoboard run.
+* [vH11](https://github.com/sparkfun/TMP006-Temp_Sensor_Breakout/releases/tag/v_1.1) - Second production run.
+* [vH10](https://github.com/sparkfun/TMP006-Temp_Sensor_Breakout/releases/tag/v_1.0) -  First production run.
+* vH01 - First protoboard run.
 
 
 License Information
